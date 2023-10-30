@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.freecodecamp.org/news/content/images/2021/07/Screenshot-2021-07-20-at-9.10.06-PM.png');
+    background-size: cover;
+  }
+  
+  .top-navbar {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .top-navbar-content {
+    font-size: 14px;
+  }
+  
+  .navbar {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  /* Rest of your CSS styles... */
+  
+  
+  /* Rest of your CSS styles... */
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .search-button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+ /* Rest of your CSS styles... */
+
+.quote-box {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    margin-left: auto; /* Move to the right corner */
+    cursor: pointer;
+  }
+  
+  
+  .background-image {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .image-text {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-box {
+    display: inline-block;
+    padding: 14px 20px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
+  .cta-box.discover {
+    background-color: green;
+  }
+  
+  .cta-box.contact {
+    background-color: green;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-box {
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+  }
+  
+  .footer-box img {
+    max-width: 100%; 
+  }
